@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page-container
+{
+	display: flex;
+}
+
+.left-container
+{
+	flex:4;
+	min-height: 100%;
+	padding: 30px;	
+	overflow-y: scroll;	
+
+}
+
+.right-container
+{
+	padding: 30px 30px 30px 0px;
+	flex:2;
+	min-height: 100%;		
+}
